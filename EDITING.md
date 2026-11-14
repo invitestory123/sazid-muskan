@@ -28,12 +28,11 @@ Edit `wedding` in `editable/wedding-data.js`:
 - `invitationNote`: Main cordial invitation message text
 
 ### Schedule of Events
-Edit `schedule` array in `editable/wedding-data.js`:
+Edit `schedule` array in `editable/wedding-data.js` (4 events):
 1. `Guest Arrival` — `6:00 PM`
 2. `Dawat-E-Walima` — `7:00 PM`
-3. `Mocktail Hour` — `7:30 PM`
-4. `Dinner` — `8:30 PM`
-5. `Duas & Wishes` — `9:30 PM`
+3. `Dinner` — `8:30 PM`
+4. `Duas & Wishes` — `9:30 PM`
 
 ### Venue & Location
 Edit `venue` in `editable/wedding-data.js`:
@@ -41,10 +40,14 @@ Edit `venue` in `editable/wedding-data.js`:
 - `address`: `"GT Road, Mughalsarai, Chandauli, Uttar Pradesh"`
 - `mapsUrl`: `"https://maps.app.goo.gl/znBq1mM28vjNSYhN6?g_st=ic"`
 
-### Etiquette & Notes
-Edit `details` in `editable/wedding-data.js`:
-- `giftPreference`: `"Kindly, no boxed gifts please."`
-- `dressCode`: `"Traditional / Formal Attire"`
+### Special Request & W.B.C.F. (Replaced Gift & Dress Code)
+Edit `specialRequest` and `wbcf` in `editable/wedding-data.js`:
+- `specialRequest`:
+  - `title`: `"Special Request :"`
+  - `name`: `"Dr. Arif Jamal Siddiqui"`
+- `wbcf`:
+  - `title`: `"W.B.C.F."`
+  - `members`: `"Samsuddin Siddiqui, Sirajuddin Siddiqui, Sabir, Sahir,<br />Shahid, Khalid, Javed &amp; All Siddiqui Family &amp; Relatives &amp; Friends."`
 
 ### Media & Assets
 Configured in `editable/wedding-data.js` under `media`:

@@ -25,7 +25,6 @@ window.WEDDING_DATA = {
   schedule: [
     { title: "Guest Arrival", time: "6:00 PM" },
     { title: "Dawat-E-Walima", time: "7:00 PM" },
-    { title: "Mocktail Hour", time: "7:30 PM" },
     { title: "Dinner", time: "8:30 PM" },
     { title: "Duas & Wishes", time: "9:30 PM" },
   ],
@@ -36,9 +35,14 @@ window.WEDDING_DATA = {
     mapsUrl: "https://maps.app.goo.gl/znBq1mM28vjNSYhN6?g_st=ic",
   },
 
-  details: {
-    giftPreference: "Kindly, no boxed gifts please.",
-    dressCode: "Traditional / Formal Attire",
+  specialRequest: {
+    title: "Special Request :",
+    name: "Dr. Arif Jamal Siddiqui",
+  },
+
+  wbcf: {
+    title: "W.B.C.F.",
+    members: "Samsuddin Siddiqui, Sirajuddin Siddiqui, Sabir, Sahir,<br />Shahid, Khalid, Javed &amp; All Siddiqui Family &amp; Relatives &amp; Friends.",
   },
 
   media: {
