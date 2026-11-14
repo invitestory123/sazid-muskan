@@ -1,0 +1,90 @@
+/* ==========================================================================
+   WAX SEAL ROYALE — CUSTOM STYLES FOR SAZID SIDDIQUI & MUSKAN SIDDIQUI
+   Dawat-e-Walima Luxury Royal Invitation
+   ========================================================================== */
+
+/* ── Typography & Global Polish ── */
+:root {
+  --royale-gold: #a67d2b;
+  --royale-gold-dark: #8c6428;
+  --royale-gold-light: #c9a96e;
+  --royale-parchment: #F9F0E0;
+  --royale-text: #6a5140;
+  --royale-text-muted: #846f61;
+}
+
+body {
+  background-color: var(--royale-parchment) !important;
+  font-feature-settings: "liga" 1, "kern" 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── Hero Section Enhancements ── */
+#rec2487446043 .tn-elem[data-elem-id="1763402147625"] .tn-atom {
+  font-weight: 800 !important;
+  text-shadow: 0 1px 3px rgba(166, 125, 43, 0.35) !important;
+}
+
+/* On mobile, center the hero couple names properly */
+@media screen and (max-width: 640px) {
+  #rec2487446043 .tn-elem[data-elem-id="1763402147625"] {
+    left: 0 !important;
+    width: 100% !important;
+    text-align: center !important;
+  }
+  #rec2487446043 .tn-elem[data-elem-id="1763402147625"] .tn-atom {
+    font-size: 58px !important;
+    font-weight: 800 !important;
+    line-height: 1.15 !important;
+    text-align: center !important;
+    padding: 0 16px !important;
+    box-sizing: border-box !important;
+    text-shadow: 0 1px 3px rgba(166, 125, 43, 0.35) !important;
+  }
+  #rec2487446043 .tn-elem[data-elem-id="176340398328864790"] {
+    left: 0 !important;
+    width: 100% !important;
+    text-align: center !important;
+  }
+  #rec2487446043 .tn-elem[data-elem-id="176340401720454780"] {
+    left: 0 !important;
+    width: 100% !important;
+    text-align: center !important;
+  }
+  #rec2487446043 .tn-elem[data-elem-id="176340390975774690"] {
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+  }
+}
+
+/* ── Location Section Polish ── */
+/* Hide redundant unlinked location draft block so only the framed location card displays */
+#rec2487446153 {
+  display: none !important;
+  height: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* Location Card alignment & responsiveness */
+#rec2487446163 {
+  overflow: visible !important;
+  position: relative !important;
+  max-width: 100vw !important;
+}
+
+#rec2487446163 .t396__artboard {
+  position: relative !important;
+  overflow: visible !important;
+  max-width: 100vw !important;
+}
+
+/* Responsive adjustment for floating audio button */
+#weiAudioBtn {
+  width: 50px !important;
+  height: 50px !important;
+  bottom: 20px !important;
+  right: 20px !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25) !important;
+}
